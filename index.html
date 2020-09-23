@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" charset="utf-8"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <style media="">
+            .content .left-content .user {
+                left: 90px;
+                top: 70px;
+                width: 480px;
+            }
+
+            @media(max-width: 700px) {
+                .content .left-content .user {
+                    left: 40px;
+                    top: 30px;
+                    width: 300px;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-12 col-md-6 logo">
+                    <span> Shivam Rawal </span>
+                </div>
+                <div class="col-0 col-md-6 menu">
+                    <ul>
+                        <li class="active"> <a href="#"> About </a> </li>
+                        <li> <a href="#"> Portfolio </a> </li>
+                        <li> <a href="#"> Contact </a> </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="left-sidebar">
+                    <ul>
+                        <li> <a href="#"> <i class="fa fa-github"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-facebook"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-phone"></i> </a> </li>
+                        <li class="vertical-line"></li>
+                    </ul>
+                </div>
+                <div class="col-1 d-none d-sm-block"></div>
+                <div class="col-12 col-md-6 left-content">
+                    <img src="user_frame_big.png" alt="" class="frame">
+                    <img src="user-transparent.png" alt="" class="user">
+                </div>
+                <div class="col-12 col-md-4 right-content">
+                    <span> Hey! I'm </span>
+                    <h3> Shivam Rawal </h3>
+                    <h4>
+                        I'm a
+                        <span class="txt-rotate"
+                              data-period="2000"
+                              data-rotate='[ "Coder", "Software Developer", "Web Designer", "Tech Enthusiast." ]'>
+                        </span>
+                    </h4>
+                    <button> Get In Touch </button>
+                </div>
+                <div class="col-1 d-none d-sm-block"></div>
+                <div class="right-sidebar">
+                    <ul>
+                        <li> <a href="#"> rawalshivam19@gmail.com </a> </li>
+                        <li class="vertical-line"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
